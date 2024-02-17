@@ -54,13 +54,26 @@ svg {
 }
 
 .container {
+  /* display: flex; */
+}
+
+.imgs-wrapper {
   display: flex;
 }
 
-.img-of {
+.img-off {
   margin: 0 auto;
 }
 
 .img-on {
   margin: 0 auto;
+}
+
+.switch-cord {
+  display: block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: yellow;
 }
